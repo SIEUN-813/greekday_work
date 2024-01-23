@@ -1,0 +1,78 @@
+#section3{    
+    width: 70vw;
+    margin: 89px auto 0;
+    .container{
+        width: 100%;
+        .title{    
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 62px;
+            h2{
+                font-size: 1.8vw;
+                font-weight: 700;
+                color: #41474C;
+            }
+            a{
+                font-size: 0.93vw;
+                font-weight: 500;
+                color: #B0B9C1;
+            }
+        }
+        .content{
+            width: 70vw;
+            margin: 89px auto 0;
+            position: relative;
+            .product-box{
+                .swiper{
+                    width: calc(249.95 * 5);
+                    overflow: hidden;
+                    user-select: none;
+                    .swiper-wrapper{
+                        height: 249.95px;
+                        display: flex;
+                        .swiper-slide{
+                            width: 249.95px;
+                            height: 249.95px;
+                            img{
+                                width: 249.95px;
+                                height: 249.95px;
+                            }
+                        }
+                    }
+                }
+            }
+            .swiper-button-prev {
+                position: absolute;
+                top: 40%;
+                left: -40px;
+                width: 22px;
+                height: 44px;
+                z-index: 10;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #B0B9C1;
+                background: url(../../../../public/images/intro/section3/icon_arrow_r.svg) no-repeat;
+                transform: rotate(-180deg);
+            }    
+            .swiper-button-next {
+                position: absolute;
+                top: 45%;
+                right: -20px;
+                width: 22px;
+                height: 44px;
+                z-index: 10;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #B0B9C1;
+                background: url(../../../../public/images/intro/section3/icon_arrow_r.svg) no-repeat;
+            } 
+        }
+    }
+}

@@ -1,0 +1,98 @@
+.viewProduct{
+    width: 70vw;
+    padding: 15.9vw 4.9vw;
+    .container{
+        //display: inline-block;
+        border-top: 0;
+        .title{
+            width: 100%;
+            border-bottom: 1px solid #989EAC80;
+            padding-bottom: 39px;
+            //display: flex;
+            //justify-content: space-between;
+            .title-txt{
+                font-size: 30px;
+                font-weight: 600;
+                color: #3a3a3a;
+            }
+        }
+        ul{
+            li{
+                display: flex;
+                justify-content: space-between;
+                padding: 20px 0;
+                align-items: center;
+                .left{
+                    width: 100%;
+                    .view-list{
+                        width: 100%;
+                        .view-list-wrap{
+                            width: 100%;
+                            > ul{
+                                width: 100%;
+                                > li{
+                                    display: flex;
+                                    justify-content: space-between;
+                                    .top{
+                                        img{
+                                            width: 100px;
+                                            height: 100px;
+                                            cursor: pointer;
+                                        }
+                                        .product-box{
+                                            p{
+                                                padding-bottom: 7px;
+                                                cursor: pointer;
+                                            }
+                                            b{
+                                                font-size: 1vw;
+                                                font-weight: 700;
+                                                color: #2354F9;
+                                                padding-right: 5px;
+                                            }
+                                            strong{
+                                                font-size: 1vw;
+                                                font-weight: 700;
+                                                color: #000;
+                                                display: initial;
+                                                margin-right: 8px;
+                                            }
+                                            span{
+                                                font-size: 1vw;
+                                                font-weight: 500;
+                                                color: #989EAC;
+                                                text-decoration: line-through;
+                                            }
+                                        }
+                                    }
+                                    .button-box{
+                                        display: flex;
+                                        flex-direction: column;
+                                        width: 100px;                                     
+                                        button{
+                                            height: 36px;
+                                            line-height: 36px;
+                                            margin: 4px 0;
+                                            cursor: pointer;
+                                            &:nth-child(1){
+                                                border: 1px solid #CED4DA;
+                                                background: #fff;
+                                                color: #ADB5BD;
+                                            }
+                                            &:nth-child(2){
+                                                color: #fff;
+                                                font-weight: 700;
+                                                background: #3859E7;
+                                                border: 0;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+#sub6{
+    width: 70vw;
+    margin: 150px auto;
+    .container{
+        .title{
+            h2{
+                margin-bottom: 150px;
+                color: #4B82F5;
+                font-size: 80px;
+                font-weight: 400;
+            }
+        }
+        .contact{
+            margin-bottom: 86px;
+            .contact-title{
+                margin-bottom: 62px;
+                text-align: center;
+                h3{
+                    margin-bottom: 25px;
+                    font-size: 35px;
+                    font-weight: 700;
+                    line-height: 31.5px;
+                }
+                .contact-email{
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 7px;
+                    i{
+
+                    }
+                    a{
+                        font-size: 20px;
+                    }
+                }
+            }
+            .who-list{
+                ul{
+                    display: grid;
+                    grid-template-columns: repeat(3,minmax(0,1fr));
+                    gap: 30px;
+                    word-break: keep-all;
+                    li{
+                        border-radius: 15px;
+                        border: 1px solid #4B82F5;
+                        overflow: hidden;
+                        .who-list-content{
+                            img{
+                                width: 100%;
+                            }
+                            span{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                height: 180px;
+                                font-size: 25px;
+                                font-weight: 500;
+                                line-height: 1.6;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .store{
+            .top{
+                display: flex;
+                align-items: center;
+                gap: 50px;
+                padding: 40px 70px;
+                border-radius: 15px;
+                background: #E5E6EA;
+                word-break: keep-all;
+                .left-mark{
+                    width: 184px;
+                    img{
+                        width: 184px;
+                    }
+                }
+                .right-txt{
+                    h3{
+                        margin-bottom: 13px;
+                        color: #4B82F5;
+                        font-size: 35px;
+                        font-weight: 700;
+                        letter-spacing: -0.7px;
+                    }
+                    p{    
+                        font-size: 18px;
+                        line-height: 1.7;
+                        strong{
+                            font-size: 19px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

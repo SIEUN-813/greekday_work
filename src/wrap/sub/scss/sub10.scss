@@ -1,0 +1,788 @@
+#sub10{
+    width: 100%;
+    .container{
+        width: 100%;
+        //min-width: 1024px;
+        display: flex;
+        border-top: 1px solid #989EAC80;
+        .info-content{
+            width: 570px;
+            border-right: 1px solid #989EAC80;
+            .member-info{
+                width: 100%;
+                padding: 8.5vw 0 4.1vw;
+                border-bottom: 1px solid #989EAC80;
+                text-align: center;
+                .info-top{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    p{
+                        font-size: 30px;
+                        font-weight: 600;
+                        color: #3A3A3A;
+                    }
+                    span{
+                        font-size: 10px;
+                        margin-left: 8px;
+                        line-height: 0.7vw;
+                        padding: 5px 8px 4px;
+                        border-radius: 5px;
+                        background: #A5C0FA;
+                        color: #fff;
+                    }
+                }
+                .info-bottom{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 22px 0px 0;
+                    margin: 0 16px;
+                    ul{
+                        display: flex;
+                        li{
+                            display: inline-block;
+                            font-size: 18px;
+                            line-height: 20px;
+                            color: #4b82f5;
+                            margin: 0 15px;
+                            font-weight: 700;
+                            a{
+                                color: #A5C0FA;
+                                font-weight: 300;
+                                margin-left: 6px;
+                                vertical-align: top;
+                            }
+                            img{
+                                vertical-align: top;
+                                margin-left: 4px;
+                            }
+                        }
+                    }
+                }
+            }
+            .info-summary{
+                border-bottom: 1px solid #989EAC80;
+                .summary-box{
+                    width: 21vw;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 2.1vw 0 2.7vw;
+                    margin: 0 auto;
+                    .inner-list{
+                        a{
+                            .box{
+                                position: relative;
+                                height: 3.5vw;
+                                padding: 0;
+                                img{
+                                    width: 2.2vw;
+                                    position: absolute;
+                                    left: 50%;
+                                    top: 50%;
+                                    transform: translate(-50%,-50%);
+                                }
+                                span{
+                                    position: absolute;
+                                    bottom: 4px;
+                                    right: -4px;
+                                    display: block;
+                                    font-size: 10px;
+                                    width: 1.3vw;
+                                    height: 1.3vw;
+                                    border-radius: 100px;
+                                    background: #4b82f5;
+                                    color: #fff;
+                                    text-align: center;
+                                    line-height: 1.3vw;
+                                }
+                            }
+                            p{
+                                font-size: 0.8vw;
+                                font-weight: 600;
+                                color: #4b82f5;
+                                margin-top: 0.7vw;
+                            }
+                        }
+                    }
+                }
+            }
+            .info-myshop{
+                padding: 3vw 0 0;
+                ul{
+                    li{
+                        a{
+                            width: 22vw;
+                            margin: 0 auto;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            justify-content: space-between;
+                            position: relative;
+                            padding: 1vw 1.1vw;
+                            font-size: 1vw;
+                            font-weight: 600;
+                            color: #000;
+                            img{
+
+                            }
+                        }
+                        &:last-child{
+                            a{
+                                color: #4B82F5;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .contents{
+            width: calc(100% - 570px);
+        }
+        .memberUpdate{
+            width: calc(70vw - 170px);
+            padding: 15.9vw 4.9vw;
+            .container{
+                display: inline-block;
+                border-top: 0;
+                .title{
+                    border-bottom: 1px solid #989EAC80;
+                    padding-bottom: 39px;
+                    .title-txt{
+                        font-size: 30px;
+                        font-weight: 600;
+                        color: #3a3a3a;
+                    }
+                }                
+                .step2{
+                    text-align: left;
+                    form{
+                        width: 100%;
+                        height: 100%;
+                        .signup-form{
+                            width: 100%;
+                            height: 100%;
+                            .list{
+                                width: 100%;
+                                .list-box{
+                                    width: 100%;
+                                    .top-box{
+                                        line-height: 28px;
+                                        padding-bottom: 4px;
+                                        padding-top: 15px;
+                                        label{
+                                            span{
+                                                font-size: 12px;
+                                                line-height: 14px;
+                                                color: #868E96;
+                                                margin-bottom: 8px;
+                                                padding-top: 16px;
+                                            }
+                                        }                                
+                                    }
+                                    .input-box{
+                                        width: 100%;
+                                        height: 32px;
+                                        input[type='text']{
+                                            border: 0;
+                                            border-bottom: 1px solid #c6cbd7;
+                                            width: 100%;
+                                            height: 100%;
+                                            padding: 10px 2px;
+                                            color: #353535;
+                                            font-size: 14px;
+                                            &::placeholder{
+                                                color: #999;
+                                            }
+                                            &:focus{
+                                                outline: 0;
+                                            }
+                                        }
+                                        input[type='radio']{
+                                            padding-top: 15px;
+                                            appearance: none;
+                                            width: 18px;
+                                            height: 18px;
+                                            border: 0;
+                                            border-radius: 50%;
+                                            background: url(../../../../public/images/sub/sub8/radio-unchecked.png) no-repeat 0 0;
+                                            background-size: 18px 18px;
+                                            &:checked{
+                                                background: url(../../../../public/images/sub/sub8/radio-checked.png) no-repeat 0 0;
+                                                background-size: 18px 18px;
+                                            }
+                                        }
+                                        .birth{
+                                            display: flex;
+                                            gap: 4px;
+                                            padding-top: 15px;
+                                            label{
+                                                display: flex;
+                                                input[id='userBirth']{
+                                                    border: 0;
+                                                    border-bottom: 1px solid #c6cbd7;
+                                                    border-radius: 0;
+                                                    text-align: center;
+                                                    height: 32px;
+                                                    width: 55px;
+                                                }
+                                                span{
+                                                    font-size: 13px;
+                                                }
+                                            }
+                                        }
+                                        span{
+                                            margin: 0 7px 0 4px;
+                                            display: inline-block;
+                                            min-height: 20px;
+                                            line-height: 20px;
+                                            font-size: 13px;
+                                            vertical-align: middle;
+                                        }
+                                    }
+                                    .num-box{
+                                        display: flex;
+                                        flex-direction: row;
+                                        justify-content: flex-start;
+                                        align-items: center;
+                                        select{
+                                            border: 0;
+                                            border-bottom: 1px solid #C6CBD7;
+                                            //padding: 0 20px 0 4px;
+                                            font-size: 14px;
+                                            color: #495057;
+                                            height: 32px;
+                                            width: 150px;
+                                            margin: 0 4px 0 0;
+                                            padding: 0 20px 0 8px;
+                                            &:focus{
+                                                outline: 0;
+                                            }
+                                        }
+                                        input[type='text']{
+                                            width: 150px;
+                                            border: 0;
+                                            border-bottom: 1px solid #C6CBD7;
+                                            height: 32px;
+                                            text-align: center;
+                                            &:focus{
+                                                outline: 0;
+                                            }
+                                        }
+                                    }
+                                    .guide-text{
+                                        font-size: 12px;
+                                        line-height: 12px;
+                                        font-weight: 300;
+                                        color: #f45b55;
+                                    }
+                                }
+                                .check-box{
+                                    text-align: left;
+                                    margin: 0 0 20px 0;
+                                    input[type='checkbox']{
+                                        appearance: none;
+                                        width: 18px;
+                                        height: 18px;
+                                        border: 0;
+                                        background: url(../../../../public/images/sub/sub8/bg_checkbox.png) no-repeat 0 0;
+                                        background-size: 18px 18px;
+                                        &:checked{
+                                            background: url(../../../../public/images/sub/sub8/icon-checked.png) no-repeat 0 0;
+                                            background-size: 18px 18px;
+                                        }
+                                    }
+                                    span{
+                                        font-size: 17px;
+                                        color: #000;
+                                        margin-left: 2px;
+                                    }
+                                }
+                            }
+                        }
+                        .button-box{
+                            height: 46px;
+                            font-size: 16px;
+                            margin-top: 70px;
+                            button[type='submit']{                        
+                                margin: 0;
+                                width: 100%;
+                                background: #3859E7;
+                                height: 100%;
+                                font-size: 16px;
+                                font-weight: 400;
+                                color: #fff;
+                                font-weight: 700;
+                                border: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .addressInfo{            
+            //width: calc(70vw - 170px);
+            width: 70vw;
+            padding: 15.9vw 4.9vw;
+            .container{
+                display: inline-block;
+                border-top: 0;
+                .title{
+                    border-bottom: 1px solid #989EAC80;
+                    padding-bottom: 39px;
+                    display: flex;
+                    justify-content: space-between;
+                    .title-txt{
+                        font-size: 30px;
+                        font-weight: 600;
+                        color: #3a3a3a;
+                    }
+                    a{
+                        font-size: 16px;
+                        font-weight: 700;
+                        color: #ADB5BD;
+                    }
+                }
+                .address-none{
+                    padding-top: 39px;                    
+                    p{
+                        border-top: 1px solid #989EAC80;
+                        text-align: center;
+                        padding-top: 14px;
+                        color: #353535;
+                    }
+                }    
+                .address-in{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 39px;
+                    border-top: 1px solid #DEE2E6;
+                    border-bottom: 1px solid #DEE2E6;
+                    padding: 20px 0;
+                    .address-info{
+                        //border-top: 1px solid #DEE2E6;
+                        p{
+                            padding: 8px 0 12px;
+                            font-size: 16px;
+                            color: #868E96;
+                            font-weight: 400;
+                            background: #fff;
+                        }
+                    }
+                    .btn-box{
+                        display: flex;
+                        flex-direction: column;
+                        button{
+                            width: 100px;
+                            height: 36px;
+                            font-size: 14px;
+                            margin: 4px 0;
+                            font-weight: 600;
+                            &:nth-child(1){                                
+                                border: 1px solid #CED4DA;
+                                color: #868E96;
+                                background: transparent;
+                            }
+                            &:nth-child(2){
+                                background: #DEE2E6;
+                                border: 1px solid #DEE2E6;
+                                color: #868E96;
+
+                            }
+                        }
+                    }
+                }          
+                .address-form{
+                    text-align: left;
+                    form{
+                        width: 100%;
+                        height: 100%;
+                        .signup-form{
+                            width: 100%;
+                            height: 100%;
+                            .list{
+                                width: 100%;
+                                &.address{
+                                    .list-box{
+                                        .input-box{
+                                            display: flex;
+                                            height: 45px;
+                                            button{
+                                                width: 84px;
+                                                height: 45px;
+                                                border: 0;
+                                                background: #343A40;
+                                                color: #fff;
+                                            }                                        
+                                        }
+                                    }
+                                }
+                                .list-box{
+                                    width: 100%;
+                                    .top-box{
+                                        line-height: 28px;
+                                        padding-bottom: 4px;
+                                        padding-top: 15px;
+                                        label{
+                                            span{
+                                                font-size: 12px;
+                                                line-height: 14px;
+                                                color: #868E96;
+                                                margin-bottom: 8px;
+                                                padding-top: 16px;
+                                            }
+                                        }                                
+                                    }
+                                    .input-box{
+                                        width: 100%;
+                                        height: 32px;
+                                        input[type='text']{
+                                            border: 0;
+                                            border-bottom: 1px solid #c6cbd7;
+                                            width: 100%;
+                                            height: 100%;
+                                            padding: 10px 2px;
+                                            color: #353535;
+                                            font-size: 14px;
+                                            &::placeholder{
+                                                color: #999;
+                                            }
+                                            &:focus{
+                                                outline: 0;
+                                            }
+                                        }
+                                        span{
+                                            margin: 0 7px 0 4px;
+                                            display: inline-block;
+                                            min-height: 20px;
+                                            line-height: 20px;
+                                            font-size: 13px;
+                                            vertical-align: middle;
+                                        }
+                                    }
+                                    .num-box{
+                                        display: flex;
+                                        flex-direction: row;
+                                        justify-content: space-between;
+                                        align-items: center;
+                                        select{
+                                            border: 0;
+                                            border-bottom: 1px solid #C6CBD7;
+                                            //padding: 0 20px 0 4px;
+                                            font-size: 14px;
+                                            color: #495057;
+                                            height: 32px;
+                                            width: 30%;
+                                            margin: 0 4px 0 0;
+                                            padding: 0 20px 0 8px;
+                                            &:focus{
+                                                outline: 0;
+                                            }
+                                        }
+                                        input[type='text']{
+                                            width: 30%;
+                                            border: 0;
+                                            border-bottom: 1px solid #C6CBD7;
+                                            height: 32px;
+                                            text-align: center;
+                                            &:focus{
+                                                outline: 0;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .button-box{
+                            height: 46px;
+                            font-size: 16px;
+                            margin-top: 70px;
+                            button[type='submit']{                        
+                                margin: 0;
+                                width: 100%;
+                                background: #3859E7;
+                                height: 100%;
+                                font-size: 16px;
+                                font-weight: 400;
+                                color: #fff;
+                                font-weight: 700;
+                                border: 0;
+                            }
+                        }
+                    }
+                }
+            }            
+        }
+        .memberManage{
+            width: calc(70vw - 170px);
+            padding: 15.9vw 4.9vw;
+            .container{
+                display: inline-block;
+                border-top: 0;
+                .title{
+                    border-bottom: 1px solid #989EAC80;
+                    padding-bottom: 39px;
+                    .title-txt{
+                        font-size: 30px;
+                        font-weight: 600;
+                        color: #3a3a3a;
+                    }
+                }    
+                .member-info-box{
+                    width: 100%;
+                    table{
+                        width: 100%;
+                        thead{
+                            font-size: 16px;
+                            tr{
+                                th{
+
+                                }
+                            }
+                        }
+                        tbody{
+                            text-align: center;
+                            tr{
+                                line-height: 150%;
+                                td{
+
+                                }
+                                .button-box{
+                                    justify-content: center;
+                                    display: flex;
+                                    width: 50px;
+                                    button{
+                                        margin: 0 5px;
+                                        width: 50px;
+                                        height: 20px;
+                                        color: #fff;
+                                        background: #4b82f5;
+                                        border-radius: 3px;
+                                        font-size: 12px;
+                                        font-weight: 600;
+                                        cursor: pointer;
+                                        border: 0;
+                                        transition: all 0.3s ease-in-out;
+                                        &:hover{
+                                            background: #fff;
+                                            color: #4b82f5;
+                                            border: 1px solid #4b82f5;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }            
+            }
+        }
+        .orderList-title{
+            width: calc(70vw - 170px);
+            padding: 15.9vw 4.9vw;
+            .title-txt{
+                font-size: 30px;
+                font-weight: 600;
+                color: #3a3a3a;
+                padding-bottom: 39px;
+                border-bottom: 1px solid #989EAC80;
+            }
+        }
+        .viewProduct{            
+            width: 70vw;
+            padding: 15.9vw 4.9vw;
+            .container{
+                display: inline-block;
+                border-top: 0;
+                .title{
+                    border-bottom: 1px solid #989EAC80;
+                    padding-bottom: 39px;
+                    display: flex;
+                    justify-content: space-between;
+                    .title-txt{
+                        font-size: 30px;
+                        font-weight: 600;
+                        color: #3a3a3a;
+                    }
+                }
+                ul{
+                    li{
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 20px 0;
+                        align-items: center;
+                        border-bottom: 1px solid #DEE2E6;
+                        .left{
+                            .view-list{
+                                .view-list-wrap{
+                                    ul{
+                                        li{
+                                            border: 0;
+                                            padding: 0;
+                                            .top{
+                                                display: flex;
+                                                align-items: center;
+                                                img{
+                                                    width: 100px;
+                                                    height: 100px;
+                                                }
+                                                .product-box{
+                                                    margin-left: 30px;
+                                                    p{
+                                                        font-size: 18px;
+                                                        margin-bottom: 7px;
+                                                        display: block;
+                                                        font-weight: 500;        
+                                                    }
+                                                    strong{
+        
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }            
+        }
+    }
+    .admin-memberManage{     
+        width: 100%;   
+        .container{
+            width: 100%; 
+            display: flex; 
+            flex-direction: column; 
+            .title{
+                width: 345px;
+                padding-bottom: 39px;
+                padding-top: 20px;
+                margin: 0 auto;
+                .title-txt{
+                    font-size: 35px;
+                    font-weight: 700;
+                    line-height: 42px;
+                    color: #4b82f5;
+                    text-align: center;
+                }
+            }
+            .content{
+                width: 100%;
+                display: flex;
+                flex-flow: column;
+                form{
+                    width: 100%;
+                    display: flex;
+                    flex-flow: column;
+                    align-items: center;
+                    justify-content: center;
+                    ul{
+                        display: flex;
+                        flex-flow: wrap;
+                        justify-content: center;
+                        width: 700px;
+                        li{
+                            display: flex;
+                            width: 700px;
+                            padding: 20px 0 7px 0;
+                            label{
+                                font-weight: 500;
+                                padding-top: 5px;
+                                height: 35px;
+                                width: 100px;
+                                margin-right: 20px;
+                                font-size: 18px;
+                            }
+                            input{
+                                padding: 5px 7px;
+                                border: 1px solid #ddd;
+                                width: 500px;
+                                height: 35px;
+                                outline-offset: -1px;
+                                outline: 1px solid transparent;
+                                transition: all 0.3s;
+                                &:focus{
+                                    outline-color: #4b82f5;
+                                }
+                            }
+                            span{
+                                padding-top: 5px;
+                                display: block;
+                                width: 200px;
+                                height: 35px;
+                                font-size: 16px;
+                                font-weight: 500;
+                            }
+                            button{
+                                margin-left: 20px;
+                                width: 60px;
+                                height: 35px;
+                                font-size: 12px;
+                                color: #fff;
+                                background: #4b82f5;
+                                border-radius: 3px;
+                                font-weight: 600;
+                                cursor: pointer;
+                                border: 0;
+                                transition: all 0.3s ease-in-out;
+                                &:hover{
+                                    background: #fff;
+                                    color: #4b82f5;
+                                    border: 1px solid #4b82f5;
+                                }
+                            }
+                        }
+                        .hide_text_box{
+                            transform: translateX(120px);
+                            width: 100%;
+                            p{
+                                font-size: 12px;
+                                color: #f03f40;
+                            }
+                        }
+                    }
+                    .button-box{
+                        justify-content: center;
+                        display: flex;
+                        width: 100%;
+                        button{
+                            margin: 0 5px;
+                            width: 100px;
+                            height: 50px;
+                            color: #fff;
+                            background: #4b82f5;
+                            border-radius: 3px;
+                            font-size: 16px;
+                            font-weight: 600;
+                            cursor: pointer;
+                            border: 0;
+                            transition: all 0.3s ease-in-out;
+                            &:hover{
+                                background: #fff;
+                                color: #4b82f5;
+                                border: 1px solid #4b82f5;
+                            }
+                        }
+                    }
+                    .text-box{
+                        margin-top: 50px;
+                        margin-bottom: 20px;
+                        justify-content: center;
+                        align-items: center;
+                        display: flex;
+                        width: 100%;
+                        p{
+                            vertical-align: top;
+                            color: red;
+                            padding-top: 10px;
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }    
+    }
+}
